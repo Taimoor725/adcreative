@@ -5,10 +5,10 @@ import React, { useState } from 'react'
 function Navbar() {
     return (
         <div className='w-[90%] h-[5.5rem] bg-white rounded-xl fixed top-6 flex  justify-between px-7'>
-            {/* <Image src={"logo.svg"} width={120} height={120} />
+            <Image src={"logo.svg"} width={120} height={120} />
             <NavSection/>
-            <TryFreeSection/> */}
-            <GenrateCol/>
+            <TryFreeSection/>
+            {/* <GenrateCol/> */}
         </div>
     )
 }
