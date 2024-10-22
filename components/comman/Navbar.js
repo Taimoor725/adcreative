@@ -8,6 +8,7 @@ function Navbar() {
             <Image src={"logo.svg"} width={120} height={120} />
             <NavSection/>
             <TryFreeSection/>
+            <div>ABC</div>
             {/* <GenrateCol/> */}
         </div>
     )
