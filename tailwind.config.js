@@ -14,6 +14,19 @@ module.exports = {
         "brPink":"#EF2B70",
         "brLightPink":"#F681AA"
       },
+
+
+
+      keyframes: {
+        "pulse-stroke": {
+          "0%": { strokeDashoffset: "9999px" },
+          "50%": { strokeDashoffset: "0" },
+          "100%": { strokeDashoffset: "-9999px" },
+        },
+      },
+      animation: {
+        "pulse-stroke": "pulse-stroke 5s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

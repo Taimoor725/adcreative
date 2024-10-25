@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 225.635 200.686" class="score-wrap is-hero">
+  <path id="Path_57082" data-name="Path 57082" d="M1932.334,453.8a104.817,104.817,0,1,1,143.647.44" transform="translate(-1891.574 -264.86)" fill="none" stroke="#ef2b70" stroke-linecap="round" stroke-miterlimit="10" stroke-width="16" opacity="0.1"></path>
+  
+  <!-- Path with animation filling up to 45% -->
+  <path id="Path_57084" data-name="Path 57084" d="M1932.334,453.8a104.817,104.817,0,1,1,143.647.44" transform="translate(-1891.574 -264.86)" fill="none" stroke="#ef2b70" stroke-linecap="round" stroke-miterlimit="10" stroke-width="16" stroke-dasharray="9999px" opacity="1">
+    <animate attributeName="stroke-dasharray" from="0 9999px" to="100% 9999px" dur="1.5s" fill="freeze" />
+  </path>
+</svg>

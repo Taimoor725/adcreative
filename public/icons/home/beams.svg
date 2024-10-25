@@ -1,0 +1,64 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="100%" 
+  viewBox="0 0 166.52 32.548" 
+  class="bento-1-middle-svg"
+>
+  <g id="Group_27402" data-name="Group 27402" transform="translate(0.5)">
+    <!-- Static Background Paths -->
+    <path 
+      id="Path_31577" data-name="Path 31577"
+      d="M5.5,32.547V24.663a9.806,9.806,0,0,1,9.714-9.895H74.306A9.806,9.806,0,0,0,84.02,4.874V0" 
+      transform="translate(-5.5)" 
+      fill="none" stroke="#cbb3bf" stroke-miterlimit="10" stroke-width="1" 
+      opacity="0.5"
+    ></path>
+
+    <path 
+      id="Path_31723" data-name="Path 31723"
+      d="M84.02,32.547V24.663a9.805,9.805,0,0,0-9.714-9.895H15.214A9.805,9.805,0,0,1,5.5,4.874V0" 
+      transform="translate(81.5)" 
+      fill="none" stroke="#cbb3bf" stroke-miterlimit="10" stroke-width="1" 
+      opacity="0.5"
+    ></path>
+
+    <!-- Pulsing Paths with Animation -->
+    <path 
+      id="Path_55222" data-name="Path 55222"
+      d="M84.02,32.547V24.663a9.805,9.805,0,0,0-9.714-9.895H15.214A9.805,9.805,0,0,1,5.5,4.874V0" 
+      transform="translate(81.5)" 
+      fill="none" stroke="#ef2b70" stroke-miterlimit="10" stroke-width="1" 
+      stroke-dasharray="15px 9999px" 
+      stroke-dashoffset="0"
+      class="animated-stroke"
+    ></path>
+
+    <path 
+      id="Path_55223" data-name="Path 55223"
+      d="M5.5,32.547V24.663a9.806,9.806,0,0,1,9.714-9.895H74.306A9.806,9.806,0,0,0,84.02,4.874V0" 
+      transform="translate(-5.5)" 
+      fill="none" stroke="#ef2b70" stroke-miterlimit="10" stroke-width="1" 
+      stroke-dasharray="15px 9999px" 
+      stroke-dashoffset="0"
+      class="animated-stroke"
+    ></path>
+  </g>
+
+  <style>
+    .animated-stroke {
+      animation: pulse-animation 5s ease-in-out infinite;
+    }
+
+    @keyframes pulse-animation {
+      0% {
+        stroke-dashoffset: 9999px;
+      }
+      50% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -9999px;
+      }
+    }
+  </style>
+</svg>
